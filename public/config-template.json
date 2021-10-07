@@ -11,6 +11,13 @@
   },
   "arguments": {
     "execute": {
+      "inArguments": [
+        {
+          "email": "{{Contact.Default.EmailAddress}}",
+          "to": "{{Contact.Attribute.AA_Twilio.Phone}}" 
+        }               
+    ],
+    "outArguments": [],
       "url": "https://$DOMAIN/journey/execute",
       "verb": "POST",
       "body": "",

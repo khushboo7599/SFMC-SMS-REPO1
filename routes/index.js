@@ -25,12 +25,12 @@ exports.ui = (req, res) => {
     title: 'Custom Activity',
     dropdownOptions: [
       {
-        name: 'Journey Entry',
-        value: 'journeyEntry',
+        name: 'Twilio',
+        value: 'Twilio',
       },
       {
-        name: 'Journey Exit',
-        value: 'journeyExit',
+        name: 'MessageBird',
+        value: 'MessageBird',
       },
     ],
   });
